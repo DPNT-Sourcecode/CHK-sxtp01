@@ -21,5 +21,3 @@ describe('SUM challenge: adding two numbers', function() {
     assert.equal(checkout('ABCDCBAABCABBAAA'), 505);
   });
 });
-
-
