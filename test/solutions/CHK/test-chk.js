@@ -40,5 +40,11 @@ describe('SUM challenge: adding two numbers', function() {
   it('return correct price 9', function() {
     assert.equal(checkout('FFFFFF'), 40);
   });
+
+  it('return correct price 10', function() {
+    assert.equal(checkout('AAAAAEEBAAABBFFF'), 475);
+  });
+
 });
+
 
