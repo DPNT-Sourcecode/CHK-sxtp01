@@ -6,11 +6,20 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 
 describe('SUM challenge: adding two numbers', function() {
   it('return correct price 1', function() {
-    assert.equal(checkout(['A']), 50);
+    assert.equal(checkout('A'), 50);
   });
 
   it('return correct price 2', function() {
-    assert.equal(checkout(['A']), 50);
+    assert.equal(checkout('AAAAAA'), 260);
+  });
+
+  it('return correct price 3', function() {
+    assert.equal(checkout('BBBB'), 90);
+  });
+
+  it('return correct price 4', function() {
+    assert.equal(checkout('ABCDCBAABCABBAAA'), 505);
   });
 });
+
 
