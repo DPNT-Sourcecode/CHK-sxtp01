@@ -46,5 +46,3 @@ describe('SUM challenge: adding two numbers', function() {
   });
 
 });
-
-
