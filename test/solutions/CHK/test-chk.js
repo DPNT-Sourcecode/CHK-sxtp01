@@ -29,4 +29,3 @@ describe('SUM challenge: adding two numbers', function() {
     assert.equal(checkout('EEB'), 80);
   });
 });
-
