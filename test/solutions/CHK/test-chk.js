@@ -25,7 +25,20 @@ describe('SUM challenge: adding two numbers', function() {
     assert.equal(checkout('EEEEBB'), 160);
   });
 
-  it('return correct price 5', function() {
+  it('return correct price 6', function() {
     assert.equal(checkout('EEB'), 80);
   });
+
+  it('return correct price 7', function() {
+    assert.equal(checkout('FF'), 20);
+  });
+
+  it('return correct price 8', function() {
+    assert.equal(checkout('FFFF'), 30);
+  });
+
+  it('return correct price 9', function() {
+    assert.equal(checkout('FFFFFF'), 40);
+  });
 });
+
